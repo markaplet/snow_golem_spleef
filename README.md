@@ -12,5 +12,10 @@ Turn based mini game where players take turns spawning a snow golem by placing p
 * The player who's turn it is must move, and place a pumpkin before their time runs out. If time expires player is moved to the lobby
 * Once player has placed a pumpkin, they are not allowed to move again until it's their next turn
 
+## Installation
+NOTE: Currently this game has no main loop and only has a few pieces of functionality stubbed out for testing.
+
+Place the folder named "snow_golem_spleef" into your worlds `data/functions` folder. Then move or copy `structures/snowarenatall.nbt` to your worlds `structures` folder.
+
 ## Fun Fact
 This game was originally conceived by my 5 year old son. Not as a mini game but just something he thought was fun to do in vanilla Minecraft. I created a small arena and saved it with structure blocks so we could instantly reset the game. This command block version has been expanded for no reason other than to make it more fair. (At 5, my son is not so great with rules, or instructions to play fairly.)
